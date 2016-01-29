@@ -48,11 +48,32 @@ html {
 
 @keyframes left-right {
 
-from {
-  transform: translateX(-5px);;
+  from {
+    transform: translateX(-5px);
+  }
+
+  to {
+    transform: translateX(15px);
+  }
 }
 
-to {
-  transform: translateX(15px);;
+.st0 {
+  fill: #673200;
 }
+
+.st1 {
+  fill: #ffaaca;
+}
+
+.st2 {
+  fill: #c65b00;
+}
+
+.st3 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
 }
