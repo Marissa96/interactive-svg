@@ -35,3 +35,24 @@ html {
   transform-origin: center;
   transform: translateY(0);
 }
+
+#right-eye {
+  animation: left-right .9s linear infinite alternate;
+  transform-origin: center;
+}
+
+#left-eye {
+  animation: left-right .9s linear infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes left-right {
+
+  from {
+    transform: translateX(-5px);;
+  }
+
+  to {
+    transform: translateX(15px);;
+  }
+}
